@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #1F2937;
+    padding: 10px 80px 150px 80px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-bottom: 80px;
+}
+
+.h-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header-text{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.text-link p{
+    color: #F9FAF8;
+    padding: 10px 0;
+}
+
+.text-link a button{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882F6;
+    justify-self: center;
+}
+
+.main-header{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.images-text img {
+    height: 300px;
+    width: 350px;
+}
+
+.boxes-text {
+    text-align: center;
+    padding: 60px;
+}
+
+.boxes-text .info{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2837;
+}
+
+.boxes{
+    display: flex;
+    margin: 30px;
+}
+
+.boxes div img {
+    flex-wrap: wrap;
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    padding: 90px;
+}
+
+.quotes p {
+    text-align: center;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.quotes p span{
+    font-weight: 700;
+    float: right;
+    padding: 20px;
+}
+
+.sign-up{
+    display: flex;
+    margin: 60px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.sign-up div{
+    
+    color: white;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.sign-up div a button {
+    text-align: center;
+    padding:10px;
+    border: 2px solid white;
+    color: white;
+    background-color: #3882F6;
+}
+
+.autor{
+    background-color: #1F2837;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.signup-btn{
+    width: 100px;
+    padding:10px;
+    border: none;
+    color: white;
+    background-color: #3882F6;
+    text-align: center;
+}
